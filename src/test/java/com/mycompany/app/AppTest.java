@@ -24,7 +24,7 @@ public class AppTest
       final int expected = 4;
   
       // Act
-      final int actual = App.add(2, 2);
+      final int actual = Calculator.add(2, 2);
   
       // Assert
       Assert.assertEquals(expected, actual);
@@ -35,7 +35,7 @@ public class AppTest
       final int expected = 4;
   
       // Act
-      final int actual = App.add(2, 2);
+      final int actual = Calculator.add(2, 2);
   
       // Assert
       Assert.assertEquals(expected, actual);
@@ -46,7 +46,7 @@ public class AppTest
       final int expected = 8;
   
       // Act
-      final int actual = App.multiply(4, 2);
+      final int actual = Calculator.multiply(4, 2);
   
       // Assert
       Assert.assertEquals(expected, actual);
@@ -57,7 +57,7 @@ public class AppTest
       final int expected = 5;
   
       // Act
-      final int actual = App.divide(10, 2);
+      final int actual = Calculator.divide(10, 2);
   
       // Assert
       Assert.assertEquals(expected, actual);
